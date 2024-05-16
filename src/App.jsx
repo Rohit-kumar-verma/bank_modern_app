@@ -3,6 +3,7 @@ import Navebar from './components/Navbar'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
 import Business from './components/Business'
+import Billing from './components/Billing'
 
 const App = () => {
   return (
@@ -23,12 +24,12 @@ const App = () => {
       <div className={`xl:max-w-[1280px] w-full`}>
         <Stats />
         <Business />
-        {/* <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer /> */}
+        <Billing />
+        {/* <CardDeal /> */}
+        {/* <Testimonials /> */}
+        {/* <Clients /> */}
+        {/* <CTA /> */}
+        {/* <Footer /> */}
       </div>
     </div>
     </div>
